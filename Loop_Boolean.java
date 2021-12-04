@@ -22,6 +22,7 @@ public class Loop_Boolean
 			}
 			
 			else{
+				System.out.println("Warning!! this numbir is not in the value range.");
 				control = true;
 			}
 		}

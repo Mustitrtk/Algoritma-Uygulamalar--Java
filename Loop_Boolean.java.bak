@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class GoTo_Method
+public class Loop_Boolean
 {
 	public static int total(int a)
 	{
