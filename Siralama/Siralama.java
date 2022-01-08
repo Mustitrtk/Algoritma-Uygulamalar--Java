@@ -3,13 +3,19 @@ import java.util.Scanner;
 public class Siralama{
 
 	public static void desc(int[] dizi){
+
 		int temp=0;
+
 		for(int k=0;k<7;k++){
+
 			for(int l=k+1;l<7;l++){ // 0 2
+
 				if(dizi[k]<dizi[l]){
+
 					temp=dizi[k]; // 0
 					dizi[k]=dizi[l]; // 2 2
 					dizi[l]=temp; // 2 0
+
 				}
 			}
 		}
@@ -23,13 +29,19 @@ public class Siralama{
 	}
 
 	public static void asc(int[] dizi){
+
 		int temp=0;
+
 		for(int k=0;k<7;k++){
+
 			for(int l=k+1;l<7;l++){
+
 				if(dizi[k]>dizi[l]){ // 7 6
+
 					temp=dizi[k]; // 7
 					dizi[k]=dizi[l]; // 6 6
 					dizi[l]=temp; // 6 7
+					
 				}
 			}
 		}
