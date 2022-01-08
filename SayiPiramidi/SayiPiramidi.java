@@ -21,9 +21,8 @@ public class SayiPiramidi {
             }
             
             System.out.println("");
-            scan.close();
-            
         }
+        scan.close();
     }
     
 }
