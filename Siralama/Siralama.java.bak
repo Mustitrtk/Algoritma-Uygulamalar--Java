@@ -1,0 +1,21 @@
+package Siralama;
+import java.util.Scanner;
+public class Siralama{
+	public static void main(String[] args){
+		
+		Scanner input = new Scanner(System.in);
+		
+		int[][] dizi = new int[3][4];
+		int [] siralidizi=new int[12];
+		
+		for(int i=0;i<3;i++){
+			for(int j=0;j<4;j++){
+				System.out.print("Dizinin "+i+". satirinin "+j+". sutunundaki degeri giriniz :");
+				dizi[i][j]=input.nextInt();
+			}
+		}
+		
+		int temp=0;
+		int sayac=0;
+	}
+}
