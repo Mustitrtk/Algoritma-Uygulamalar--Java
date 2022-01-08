@@ -20,11 +20,10 @@ public class BaklavaDilimi{
 		}
 		
 		for(int k=n-1;k>0;k--){
-
+			
 			for(int l=n;l>=k;l--){
 				System.out.print(" ");
 			}
-			
 			for(int m=0;m<=(2*k)-2;m++){
 				System.out.print("*");
 			}
