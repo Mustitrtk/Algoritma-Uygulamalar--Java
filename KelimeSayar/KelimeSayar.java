@@ -13,13 +13,9 @@ public class KelimeSayar {
 		
 		cumle = cumle.trim(); // başta ve sonda bulunan boşlukları siler
 		
-        //char[] ch = new char[cumle.length()];
-		
         int kelime=0;
 		
         for (int i = 0; i < cumle.length(); i++) {
-			
-            //ch[i]= cumle.charAt(i);
 			
             if (cumle.charAt(i)==' ') {
 				
