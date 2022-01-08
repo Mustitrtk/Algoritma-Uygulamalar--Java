@@ -1,3 +1,5 @@
+package TekrarliIslem;
+
 import java.util.Scanner;
 public class Loop_Boolean
 {

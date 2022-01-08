@@ -1,3 +1,5 @@
+package TersYazdirmaMetodu;
+
 import java.util.Scanner;
 
 public class TersYazdirma{

@@ -1,3 +1,5 @@
+package KokBulma;
+
 import java.util.Scanner;
 
 public class KokBulma

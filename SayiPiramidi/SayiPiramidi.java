@@ -1,4 +1,4 @@
-package sayipiramidi;
+package SayiPiramidi;
 
 import java.util.Scanner;
 
@@ -21,6 +21,7 @@ public class SayiPiramidi {
             }
             
             System.out.println("");
+            scan.close();
             
         }
     }
