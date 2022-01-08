@@ -1,4 +1,4 @@
-package basamaksayilaritoplami;
+package BasamakSayilariToplami.BasamakSayilariToplami.src.basamaksayilaritoplami;
 import java.util.Scanner;
 
 public class BasamakSayilariToplami {
@@ -18,6 +18,7 @@ public class BasamakSayilariToplami {
         }
         
         System.out.println("sum of digits : "+total);
+        input.close();
     }
     
 }
